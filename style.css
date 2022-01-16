@@ -1,0 +1,365 @@
+* {
+    box-sizing: border-box;
+    font-weight: 100;
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    height: 60;
+    background-color: #029D57;
+    position: relative;
+    top: 0;
+}
+
+.header-container {
+    margin: 0 100px;
+    height: inherit;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   
+}
+
+.header-container .nav-left .logo {
+    font-weight: 700;
+    font-style: italic;
+}
+
+.header-container .nav-right nav ul{
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.header-container .nav-right nav ul li {
+    padding-left: 18px;
+    color: rgb(253, 232, 232);
+    
+}
+
+.main-container .main-header-info {
+    display: flex;
+    justify-content: center;
+    background-color: #039151;
+    
+}
+
+.main-container .main-header-info span {
+    padding-top: 4rem;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 40%;
+    font-weight: 700;
+    font-size: 64;
+    color: white;
+}
+
+
+.main-container .annoucements {
+    display: flex;
+    justify-content: center;
+    background-color: #039151;
+}
+
+.main-container .annoucements span {
+    padding-top: 3rem;
+    padding-bottom:3rem;
+    text-align: center;
+    line-height: 1.2;
+    max-width: 35%;
+    font-weight: 500;
+    font-size: 19px;
+    color: white;
+}
+
+.main-container .left-right-section {
+    display: flex;
+    padding-bottom: 3rem;
+    justify-content: center;
+    background-color: #039151;
+}
+
+/* .main-container .left-right-section .playstore img{
+    margin-left: 10px;
+}
+ */
+
+ .main-container .product-image-overview {
+    display: flex;
+    justify-content: center;
+    background-color: #039151;
+
+ }
+
+ .about-section .about-section-wrapper {
+     height: 500px;
+     width: 100%;
+     background-image: url("./assets/about-section.png");
+ }
+
+ .about-section .text {
+     width: 50%;
+     justify-content: center;
+     height: inherit;
+     display: flex;
+     flex-direction: column
+ }
+
+ .about-section .text h1 {
+     color: #007640;
+     max-width: 40%;
+     margin-left: 6rem;
+     font-size: 34px;
+ }
+
+ .about-section .text h3 {
+     color: #646464;
+     font-weight: 100;
+     margin-left: 6rem;
+
+ }
+
+ .main-container .connect-with-fans {
+     width: 100%;
+     margin-top: 6rem;
+     margin-bottom: 6rem;
+     display: flex;
+ }
+
+ .main-container .connect-with-fans .text{
+    width: 40%;
+    max-width: 40%;
+    margin-left: 6rem;
+ }
+
+ .main-container .connect-with-fans .text h1 {
+     color: black;
+     font-size: 46;
+     max-width: 50%;
+ }
+
+ .main-container .connect-with-fans .image {
+    width: 50%;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ 
+ .main-container .chat-section {
+    width: 100%;
+    margin-top: 6rem;
+    margin-bottom: 6rem;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+    
+}
+
+.main-container .chat-section .text{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    max-width: 50%;
+    padding-left: 6rem;
+    background-color: #007640;
+ }
+ 
+
+
+ .main-container .chat-section .image {
+    width: 50%;
+    display:flex;
+    flex-direction: column;
+    background-color: #EFEFE5;
+    align-items: center;
+ }
+
+ .main-container .chat-section .image img {
+     width: 70%;
+     height: 60px;
+ }
+ 
+
+
+.main-container .chat-section .text h1 {
+    color: black;
+    font-size: 46;
+    max-width: 50%;
+}
+
+.main-container .chat-section .text p {
+    margin-right: 60px;
+}
+
+
+.main-container .chat-section .text .fans-icons-wrapper {
+    padding-top:60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.main-container .chat-section .text .fans-icons-wrapper img{
+    margin-right: 60px;
+}
+
+.text .cta {
+    padding: 7px 16px;
+    border: 1px solid;
+    border-radius: 50px;
+    font-weight: 500;
+    background-color: #FFBB62;
+}
+
+.main-container .influencer-session {
+    width: 100%;
+    display: flex;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-container .influencer-session .image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+
+}
+
+.main-container .influencer-session .text>p {
+    font-size: 22px;
+    max-width: 600px;
+    color: #646464;
+}
+
+
+
+.main-container .influencer-session .text h1 {
+    width: 50%;
+    font-size: 56px;
+    font-weight: 500;
+}
+
+
+
+
+
+
+.main-container .influencer-session .text .fans-icons-wrapper {
+    padding-top:60px;
+    display: flex;
+    /* align-items: center; */
+    /* justify-content: space-between; */
+}
+
+.main-container .payment-session {
+    
+    display: flex;
+    align-content: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
+.main-container .payment-session .image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: #272727;
+}
+
+.main-container .payment-session .text {
+    width: 50%;
+    padding: 0 100px;
+    background-color: #202020;
+}
+
+
+.main-container .payment-session .text h1  {
+    width: 70%;
+    font-size: 46px;
+    color: white;
+    background-color: #202020;
+}
+
+.main-container .payment-session .text p {
+    color: #A6A6A6;
+    font-size: 22px;
+    max-width: 600px;
+    font-weight: 100;
+}
+
+
+.main-container .payment-session .text .fans-icons-wrapper {
+    padding-top:60px;
+    display: flex;
+    align-items: center; 
+    justify-content: space-between;
+}
+
+.main-container .assurance {
+    padding-left: 100px;
+    padding-top: 50px;
+
+}
+
+.main-container .assurance p {
+    font-size: 38px;
+    height: auto;
+    width: 250px;
+    font-weight: 100;
+    color: #007640;
+}
+
+.main-container .profile-session {
+    display: flex;
+    align-content: center;
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.main-container .profile-session .text {
+    width: 50%;
+
+     
+    
+}
+
+.main-container .profile-session .text img{
+    display: flex;
+    align-items: center;
+    padding-left: 250px;
+    padding-top: 200px
+    
+}
+
+.main-container .profile-session .image {
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.main-container .frame {
+    display: flex;
+    justify-content: center;
+}
+
+
+/* colors:  #039151 */
+/* #EFEFE5
+202020
+029B56
+
+green text 007640
+form border B8B8B8
+grey text 646464 */
+/* ewe songs
+komfo kwadee */
