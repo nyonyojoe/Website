@@ -83,10 +83,14 @@ header {
     background-color: #039151;
 }
 
-/* .main-container .left-right-section .playstore img{
-    margin-left: 10px;
+.main-container .left-right-section img{
+    margin-left: 20px;
 }
- */
+
+.main-container .left-right-section img{
+    margin-right: 20px;
+}
+
 
  .main-container .product-image-overview {
     display: flex;
@@ -159,6 +163,7 @@ header {
     margin-right: 0;
     
 }
+
 
 .main-container .chat-section .text{
     display: flex;
@@ -352,14 +357,58 @@ header {
     justify-content: center;
 }
 
+.main-container .footer-container {
+      height: 200px;
+      padding: 24px 0;
+      box-shadow: grey;
+}
 
-/* colors:  #039151 */
-/* #EFEFE5
-202020
-029B56
+.main-container .footer-container .footer-section {
+    display: flex;
+    padding: 0 40px;
+}
 
-green text 007640
-form border B8B8B8
-grey text 646464 */
-/* ewe songs
-komfo kwadee */
+.footer-section ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.footer-section ul li {
+    color: rgba(0,0,0,.56);
+    padding-top: .8rem;
+    padding-bottom: .8rem;
+    margin-bottom: .8rem;
+}
+
+.links-container {
+    width: 190px;
+    margin-right: 24px;
+}
+
+.footer-section .links-container h3 {
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+.footer-section .link-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.footer-section .logo-section {
+   display: flex;
+   padding-top: 100px;
+   flex-direction: column;
+   align-items: center;
+   justify-items: center;
+    width: 30%;
+}
+
+.footer-section .logo-section .link-icons>img{
+    margin-right: 10px;
+}
+
+.footer-section .logo-section .link-icons {
+    display: flex;
+}
